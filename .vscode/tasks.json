@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run JavaFX GUI in Codespaces",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/javafxtemplate/run-codespaces-gui.sh"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
